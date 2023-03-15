@@ -6,7 +6,7 @@ const fs = require("fs");
 //fs === fileSystem
 fs.readFile("./blog.txt", (err, data) => {
   if (err) {
-    console.log(err);
+    return
   } else {
     console.log(data.toLocaleString());
   }

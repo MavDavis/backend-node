@@ -8,6 +8,6 @@ fs.readFile("./blog.txt", (err, data) => {
   if (err) {
     return
   } else {
-    console.log(data.toLocaleString());
+    // console.log(data.toLocaleString());
   }
 });

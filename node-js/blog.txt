@@ -1,1 +1,6 @@
 helloWorld
+**Types of Node Modules**
+
+Built-in modules.
+Local modules.
+Third-party modules.
